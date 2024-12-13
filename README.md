@@ -16,34 +16,36 @@ We are working on a classification project using a custom image dataset hosted o
 
 ---
 
-## 📁 Dataset Details
-
-### Location:
-
-The dataset is stored on Google Drive. Access the dataset [here](https://drive.google.com/drive/folders/1Mh2Ajk_D3TiEqro-kyo1glBbxEU2wpHu?usp=sharing).
-
-### Structure:
-
-- **Source:** Custom dataset organized into categories for classification.
-- **Categories:** Images are grouped into folders based on their labels.
-- **Size:** Optimized for ML training and testing purposes.
-
-### Folder Structure:
+## 📁 Repository Structure
 
 ```
-/dataset
-  |-- category1/
-  |-- category2/
-  |-- ...
+/
+|-- README.md           # Project documentation
+|-- model-testing.ipynb # Jupyter notebook for testing models
+|-- my_keras_model.keras# Trained Keras model file
+|-- my_model.h5         # Trained model in HDF5 format
+|-- requirements.txt    # Dependencies for the project
+|-- tfjs_model.zip      # TensorFlow.js model files
 ```
+### Complete File
 
-### Example Files:
+[File](https://drive.google.com/drive/folders/1nox8b3vygXENMgs55Zmnf2NSX4vO8nfR)
 
-| File Name    | Description        |
-| ------------ | ------------------ |
-| `category1/` | Folder for Class 1 |
-| `category2/` | Folder for Class 2 |
-| ...          | ...                |
+### Additional Dataset
+
+The dataset used for this project is hosted on Google Drive and can be accessed using the following link:
+#### Dataset :
+
+[Used Dataset](https://drive.google.com/drive/folders/1Mh2Ajk_D3TiEqro-kyo1glBbxEU2wpHu?usp=sharing)<br>
+
+#### Source Dataset
+[Kaggle Link 1](https://www.kaggle.com/datasets/mostafaabla/garbage-classification)<br>
+[Kaggle Link 2](https://www.kaggle.com/datasets/reyhanwiranugraha/real-image-dataset)<br>
+[Kaggle Link 3](https://www.kaggle.com/datasets/mhazhary/trashify-image-dataset?resource=download)<br>
+[Kaggle Link 4](https://www.kaggle.com/datasets/fathurrahmanalfarizy/sampah-daur-ulang/data)<br>
+
+
+Files not included directly in this repository, such as large datasets, can be downloaded via the link above.
 
 ---
 
@@ -111,8 +113,8 @@ Our team welcomes collaboration and feedback. If you have suggestions or want to
 
 **Contact Information:**
 
-- Email: [[Our Gmail](capstoneibsbangkit@gmail.com)]
-- GitHub: [GitHub Profile](https://github.com/ibs-bangkit)
+- Email: [Our Gmail](capstoneibsbangkit@gmail.com)
+- GitHub: [GitHub Profile](https://github.com/ibs-bangkit/ibs-bangkit)
 
 ---
 
