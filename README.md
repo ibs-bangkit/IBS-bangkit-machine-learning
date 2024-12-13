@@ -87,6 +87,29 @@ Files not included directly in this repository, such as large datasets, can be d
 
    - Model export and deployment pipeline.
 
+### How to Run and Deploy the Model
+
+1. **Setup the Environment:**
+   - Clone this repository: `git clone <repository-link>`
+   - Navigate to the project folder: `cd <project-folder>`
+   - Install dependencies: `pip install -r requirements.txt`
+
+2. **Dataset Preparation:**
+   - Download the dataset from the [Dataset Link](https://drive.google.com/drive/folders/1Mh2Ajk_D3TiEqro-kyo1glBbxEU2wpHu?usp=sharing).
+   - Extract the dataset and place it in the `/datasets` folder.
+
+3. **Run Model Testing:**
+   - Open `model-testing.ipynb` in Google Colab or Jupyter Notebook.
+   - Load the dataset and run all cells to test the model.
+
+4. **Deploy the Model:**
+   - For web-based deployment, use the TensorFlow.js model (`tfjs_model.zip`) by integrating it into a web application.
+   - For API-based deployment, use the HDF5 model (`my_model.h5`) and create a Flask or FastAPI backend.
+   - Deploy the backend on cloud platforms like AWS, GCP, or Heroku.
+
+5. **Monitor Performance:**
+   - Ensure that the model is tested against real-world data to verify its accuracy and reliability.
+
 ---
 
 ## 🏆 Key Milestones
