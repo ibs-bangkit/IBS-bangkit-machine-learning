@@ -38,7 +38,7 @@ The dataset used for this project is hosted on Google Drive and can be accessed 
 
 [Used Dataset](https://drive.google.com/drive/folders/1Mh2Ajk_D3TiEqro-kyo1glBbxEU2wpHu?usp=sharing)<br>
 
-#### Source Dataset
+#### Source Dataset :
 [Kaggle Link 1](https://www.kaggle.com/datasets/mostafaabla/garbage-classification)<br>
 [Kaggle Link 2](https://www.kaggle.com/datasets/reyhanwiranugraha/real-image-dataset)<br>
 [Kaggle Link 3](https://www.kaggle.com/datasets/mhazhary/trashify-image-dataset?resource=download)<br>
